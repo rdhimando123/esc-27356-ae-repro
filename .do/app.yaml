@@ -1,0 +1,10 @@
+name: esc-27356-ae-repro
+region: s2r
+services:
+  - name: web
+    github:
+      repo: rdhimando123/esc-27356-ae-repro
+      branch: main
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: apps-s-1vcpu-0.5gb
